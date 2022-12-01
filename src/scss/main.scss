@@ -43,8 +43,15 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+main {
+  margin-top: 16px;
+}
 
-.row + .row {
+footer {
+  margin-top: 16px;
+}
+
+.row {
   margin-top: 16px;
 }
 
@@ -60,4 +67,8 @@ h1 {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
+}
+
+header {
+  background-color: green;
 }
