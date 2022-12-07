@@ -43,6 +43,28 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+@font-face {
+  font-family: "AmericanaStd";
+  src: url("../font/AmericanaStd.woff2") format("woff2"),
+    url("../font/AmericanaStd.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "AmericanaStd-bold";
+  src: url("../font/AmericanaStd-Bold.woff2") format("woff2"),
+    url("../font/AmericanaStd-Bold.woff") format("woff");
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "AcuminPro";
+  src: url("../font/AcuminPro-Regular.woff2") format("woff2"),
+    url("../font/AcuminPro-Regular.woff") format("woff");
+  font-display: fallback;
+}
+
 main {
   margin-top: 16px;
 }
@@ -51,24 +73,76 @@ footer {
   margin-top: 16px;
 }
 
-.row {
-  margin-top: 16px;
+// .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+
+// h1 {
+//   text-align: center;
+//   margin-top: 40px;
+//   margin-bottom: 20px;
+// }
+
+header {
+  background-color: #829e8a;
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.parent1 {
+  position: relative;
+  padding: none;
+}
+
+.child1 {
+  position: absolute;
+  z-index: 1;
+  bottom: 12px;
+  left: 15px;
 }
 
 h1 {
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  font-family: "AmericanaStd-bold";
+  color: white;
+  font-size: 48px;
+  line-height: 48px;
+  z-index: 1;
 }
 
-header {
-  background-color: green;
+header img {
+  width: 100%;
+  padding-left: 0;
+}
+
+.header-img {
+  padding: 0;
+  padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding-top: 66px;
+    padding-bottom: 66px;
+  }
+
+  h1 {
+    font-size: 130px;
+  }
+
+  header img {
+    padding-right: 47px;
+  }
+
+  .child1 {
+    bottom: 26px;
+    left: 47px;
+  }
 }
