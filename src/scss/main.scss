@@ -67,6 +67,7 @@ video {
 
 main {
   margin-top: 16px;
+  color: #829e8a;
 }
 
 footer {
@@ -146,12 +147,14 @@ header img {
   }
 }
 
-.about-us-title {
+.about-us {
+  border-bottom: solid 1px #829e8a;
+}
+
+.main-title {
   font-family: "AmericanaStd-bold";
   font-size: 30px;
   line-height: 30px;
-  color: #829e8a;
-  border-bottom: solid 1px #829e8a;
   padding-bottom: 16px;
   padding-top: 60px;
 }
@@ -159,21 +162,22 @@ header img {
 .about-us-img {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.information {
   border-bottom: solid 1px #829e8a;
 }
 
 .about-us-description {
   font-family: "AcuminPro";
-  color: #829e8a;
   font-size: 16px;
   line-height: 26px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: solid 1px #829e8a;
 }
 
 @media (min-width: 992px) {
-  .about-us-title {
+  .main-title {
     font-size: 66px;
     line-height: 66px;
     padding-top: 122px;
@@ -193,4 +197,43 @@ header img {
     flex-direction: column;
     justify-content: center;
   }
+}
+
+.daily-menu {
+  border-bottom: solid 1px #829e8a;
+}
+
+.daily-menu-img {
+  border-bottom: solid 1px #829e8a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.daily-menu-card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.daily-menu-meals {
+  border-right: solid 1px #829e8a;
+}
+
+.menu {
+  border-bottom: solid 1px #829e8a;
+}
+
+h3 {
+  font-family: "AmericanaStd-bold";
+  font-size: 22px;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.daily-menu-card p {
+  font-family: "AcuminPro";
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 10px;
 }
