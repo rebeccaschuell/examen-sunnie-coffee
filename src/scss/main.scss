@@ -119,7 +119,6 @@ h1 {
 
 header img {
   width: 100%;
-  padding-left: 0;
 }
 
 .header-img {
@@ -144,5 +143,54 @@ header img {
   .child1 {
     bottom: 26px;
     left: 47px;
+  }
+}
+
+.about-us-title {
+  font-family: "AmericanaStd-bold";
+  font-size: 30px;
+  line-height: 30px;
+  color: #829e8a;
+  border-bottom: solid 1px #829e8a;
+  padding-bottom: 16px;
+  padding-top: 60px;
+}
+
+.about-us-img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #829e8a;
+}
+
+.about-us-description {
+  font-family: "AcuminPro";
+  color: #829e8a;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #829e8a;
+}
+
+@media (min-width: 992px) {
+  .about-us-title {
+    font-size: 66px;
+    line-height: 66px;
+    padding-top: 122px;
+    padding-bottom: 32px;
+  }
+
+  .about-us-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .about-us-description {
+    font-size: 20px;
+    line-height: 30px;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
