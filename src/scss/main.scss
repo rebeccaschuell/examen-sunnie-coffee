@@ -272,4 +272,72 @@ a {
   }
 }
 
+.opening-hours {
+  border-bottom: solid 1px #829e8a;
+}
+
+h4 {
+  font-family: "AmericanaStd-bold";
+  line-height: 22px;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hours {
+  font-family: "AcuminPro";
+  line-height: 26px;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.first-hour-title {
+  padding-top: 10px;
+}
+
+.last-hour {
+  padding-bottom: 10px;
+}
+
+.restaurant-img {
+  border-bottom: solid 1px #829e8a;
+  border-top: solid 1px #829e8a;
+}
+
+.restaurant-img img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hidden-image {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  h4 {
+    font-size: 44px;
+    line-height: 44px;
+    padding-bottom: 32px;
+  }
+
+  .first-hour-title {
+    padding-top: 60px;
+  }
+
+  .last-hour {
+    padding-bottom: 60px;
+  }
+
+  .hours {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 40px;
+  }
+
+  .hidden-image {
+    display: block;
+  }
+}
+
 // background img header
