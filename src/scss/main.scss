@@ -94,9 +94,12 @@ footer {
 
 header {
   background-color: #829e8a;
-  padding-top: 36px;
-  padding-bottom: 36px;
   background-image: url(../img/header-img.webp);
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  border: solid #829e8a;
+  border-width: 36px 26px 36px 0;
 }
 
 // .parent1 {
@@ -114,9 +117,11 @@ header {
 h1 {
   font-family: "AmericanaStd-bold";
   color: white;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 68px;
+  line-height: 68px;
   z-index: 1;
+  padding-top: 400px;
+  // padding-top: 160px;
 }
 
 header img {
@@ -134,9 +139,15 @@ header img {
     padding-bottom: 66px;
   }
 
+  header {
+    height: 80vh;
+    border-width: 68px 48px 68px 0;
+  }
+
   h1 {
     font-size: 130px;
     line-height: 130px;
+    padding-top: 400px;
   }
 
   header img {
@@ -262,6 +273,12 @@ a {
     font-size: 44px;
     line-height: 44px;
     padding: none;
+    padding-top: 20px;
+  }
+
+  .daily-menu-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .daily-menu-card p {
@@ -315,6 +332,11 @@ h4 {
 }
 
 @media (min-width: 992px) {
+  .restaurant-img img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   h4 {
     font-size: 44px;
     line-height: 44px;
@@ -322,17 +344,17 @@ h4 {
   }
 
   .first-hour-title {
-    padding-top: 60px;
+    padding-top: 20px;
   }
 
   .last-hour {
-    padding-bottom: 60px;
+    padding-bottom: 20px;
   }
 
   .hours {
     font-size: 20px;
     line-height: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .hidden-image {
@@ -340,4 +362,105 @@ h4 {
   }
 }
 
+.contact,
+.contact-information {
+  background-color: #829e8a;
+}
+
+.contact-title {
+  color: #829e8a;
+}
+
+.contact {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.contact-information {
+  border-bottom: solid 1px #ffffff;
+  border-top: solid 1px #ffffff;
+}
+
+.green-rectangle {
+  padding-top: 36px;
+  background-color: #829e8a;
+}
+
+footer p {
+  color: #ffffff;
+  font-family: "AcuminPro";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.navbar {
+  background-color: #829e8a;
+  color: #ffffff;
+  padding: 16px 0;
+  font-family: "AmericanaStd-bold";
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+
 // background img header
+
+// /* Sidenav menu */
+// .sidenav {
+//   height: 218%;
+//   width: 100%;
+//   position: fixed;
+//   z-index: 1;
+//   top: 0;
+//   left: -250px;
+//   background-color: lightgrey;
+//   padding-top: 60px;
+//   transition: left 0.5s ease;
+// }
+
+// /* Sidenav menu links */
+// .sidenav a {
+//   padding: 6px 42px;
+//   text-decoration: none;
+//   font-size: 16px;
+//   line-height: 16px;
+//   color: #ffffff;
+//   display: block;
+//   transition: 0.3s;
+// }
+
+// // .sidenav a:hover {
+// //   color: #111;
+// // }
+
+// .sidenav ul {
+//   list-style-type: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// /* Active class */
+// .sidenav.active {
+//   left: 0;
+// }
+
+// /* Close btn */
+// .sidenav .close {
+//   position: absolute;
+//   top: 0;
+//   right: 25px;
+//   font-size: 36px;
+// }
+
+// /* Icône burger */
+// .burger-icon span {
+//   display: block;
+//   width: 35px;
+//   height: 5px;
+//   background-color: #ffffff;
+//   margin: 6px 0;
+// }
