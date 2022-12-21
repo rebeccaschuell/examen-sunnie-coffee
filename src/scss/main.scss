@@ -100,6 +100,8 @@ header {
   background-position: center;
   border: solid #829e8a;
   border-width: 36px 26px 36px 0;
+  position: relative;
+  z-index: 3;
 }
 
 // .parent1 {
@@ -117,10 +119,10 @@ header {
 h1 {
   font-family: "AmericanaStd-bold";
   color: white;
-  font-size: 68px;
-  line-height: 68px;
+  font-size: 48px;
+  line-height: 48px;
   z-index: 1;
-  padding-top: 400px;
+  padding-top: 420px;
   // padding-top: 160px;
 }
 
@@ -137,9 +139,6 @@ header img {
   header {
     padding-top: 66px;
     padding-bottom: 66px;
-  }
-
-  header {
     height: 80vh;
     border-width: 68px 48px 68px 0;
   }
@@ -362,28 +361,28 @@ h4 {
   }
 }
 
-.contact,
-.contact-information {
+.contact {
   background-color: #829e8a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.rectangle {
+  padding-top: 26px;
+  background-color: #829e8a;
+}
+
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px 0 0 0;
 }
 
 .contact-title {
   color: #829e8a;
-}
-
-.contact {
-  padding-top: 36px;
-  padding-bottom: 36px;
-}
-
-.contact-information {
-  border-bottom: solid 1px #ffffff;
-  border-top: solid 1px #ffffff;
-}
-
-.green-rectangle {
-  padding-top: 36px;
-  background-color: #829e8a;
 }
 
 footer p {
@@ -393,18 +392,69 @@ footer p {
   line-height: 26px;
 }
 
+.contact-button a {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+}
+
+.button-footer {
+  margin-bottom: 20px;
+}
+
+.last-button {
+  margin-bottom: 4;
+}
+
+@media (min-width: 992px) {
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contact-us {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  .rectangle {
+    padding-top: 36px;
+  }
+
+  footer p {
+    color: #ffffff;
+    font-family: "AcuminPro";
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .first-button {
+    padding-top: 60px;
+  }
+
+  .last-button {
+    margin-bottom: 4;
+  }
+}
+
 .navbar {
   background-color: #829e8a;
   color: #ffffff;
-  padding: 16px 0;
-  font-family: "AmericanaStd-bold";
-  font-size: 20px;
-  line-height: 20px;
+  padding: 20px 0;
   text-align: center;
   position: fixed;
   z-index: 2;
   width: 100%;
   top: 0;
+}
+
+.navigation {
+  font-family: "AmericanaStd-bold";
+  font-size: 36px;
+  line-height: 20px;
 }
 
 // background img header
@@ -463,4 +513,27 @@ footer p {
 //   height: 5px;
 //   background-color: #ffffff;
 //   margin: 6px 0;
+// }
+
+// .burger-button {
+//   display: inline-block;
+//   margin-bottom: 20px;
+//   cursor: pointer;
+// }
+
+// .burger-menu {
+//   // opacity: 0; remettre le opacity 0 a la fin
+//   opacity: 1;
+// }
+
+// .burger-menu.is-open {
+//   opacity: 1;
+// }
+
+// .burger-menu a {
+//   border: 1px solid #ffffff;
+// }
+
+// .b-m {
+//   margin-bottom: 20px;
 // }

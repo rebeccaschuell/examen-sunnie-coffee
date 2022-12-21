@@ -14,3 +14,14 @@
 // function closeNav() {
 //   sidenav.classList.remove("active");
 // }
+
+// var button = document.querySelector(".burger-button");
+// console.log(button);
+// var menu = document.querySelector(".burger-menu");
+// console.log(menu);
+// var openMenu = function () {
+//   menu.classList.toggle("is-open");
+//   button.classList.toggle("is-active");
+// };
+
+// button.addEventListener("click", openMenu);
