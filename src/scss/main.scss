@@ -105,18 +105,6 @@ header {
   z-index: 3;
 }
 
-// .parent1 {
-//   position: relative;
-//   padding: none;
-// }
-
-// .child1 {
-//   position: absolute;
-//   z-index: 1;
-//   bottom: 12px;
-//   left: 15px;
-// }
-
 h1 {
   font-family: "AmericanaStd-bold";
   color: white;
@@ -124,7 +112,6 @@ h1 {
   line-height: 48px;
   z-index: 1;
   padding-top: 420px;
-  // padding-top: 160px;
 }
 
 header img {
@@ -153,11 +140,6 @@ header img {
   header img {
     padding-right: 47px;
   }
-
-  // .child1 {
-  //   bottom: 26px;
-  //   left: 47px;
-  // }
 }
 
 .about-us {
@@ -224,8 +206,11 @@ header img {
 .daily-menu-card {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  align-items: center;
   flex-wrap: wrap;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
 }
 
 .menu {
@@ -263,9 +248,7 @@ a {
 
 @media (min-width: 992px) {
   .daily-menu-card {
-    display: flex;
     flex-direction: column;
-    text-align: center;
   }
 
   h3 {
@@ -287,6 +270,10 @@ a {
     line-height: 30px;
     padding: none;
   }
+
+  .daily-menu-drinks {
+    padding-bottom: 20px;
+  }
 }
 
 .opening-hours {
@@ -298,7 +285,7 @@ h4 {
   line-height: 22px;
   font-size: 22px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 .hours {
@@ -306,7 +293,7 @@ h4 {
   line-height: 26px;
   font-size: 16px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .first-hour-title {
@@ -314,7 +301,7 @@ h4 {
 }
 
 .last-hour {
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 .restaurant-img {
@@ -340,7 +327,13 @@ h4 {
   h4 {
     font-size: 44px;
     line-height: 44px;
-    padding-bottom: 32px;
+    padding-bottom: 10px;
+  }
+
+  .hours {
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 40px;
   }
 
   .first-hour-title {
@@ -348,12 +341,6 @@ h4 {
   }
 
   .last-hour {
-    padding-bottom: 20px;
-  }
-
-  .hours {
-    font-size: 20px;
-    line-height: 20px;
     padding-bottom: 20px;
   }
 
@@ -368,6 +355,14 @@ h4 {
   padding-bottom: 10px;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+
+.adress-text {
+  text-align: justify;
+}
+
+.adress {
+  padding-top: 25px;
 }
 
 .rectangle {
@@ -428,8 +423,8 @@ footer p {
   footer p {
     color: #ffffff;
     font-family: "AcuminPro";
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .first-button {
@@ -438,6 +433,10 @@ footer p {
 
   .last-button {
     margin-bottom: 4;
+  }
+
+  .adress {
+    padding-top: 0;
   }
 }
 
