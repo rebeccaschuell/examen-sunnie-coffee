@@ -213,7 +213,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // top: 50%;
+    height: 100%;
+    justify-content: center;
   }
 }
 
@@ -221,9 +222,12 @@ main {
   border-bottom: solid 1px #829e8a;
 }
 
+.menu {
+  border-bottom: solid 1px #829e8a;
+}
+
 .daily-menu-img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 .daily-menu-card {
@@ -236,21 +240,15 @@ main {
   justify-content: center;
 }
 
-.menu {
-  border-bottom: solid 1px #829e8a;
-}
-
 h3 {
   font-family: "AmericanaStd-bold";
   font-size: 22px;
   line-height: 22px;
-  padding-top: 10px;
-  padding-bottom: 4px;
+  padding: 10px 0;
 }
 
 .daily-menu-card p {
   font-family: "AcuminPro";
-  font-size: 16px;
   line-height: 26px;
   padding-bottom: 20px;
 }
@@ -260,35 +258,31 @@ h3 {
 }
 
 a {
+  font-family: "AmericanaStd-bold";
+  line-height: 16px;
+  text-decoration: none;
   border: 1px solid #829e8a;
   border-radius: 50px;
-  padding: 6px 37px 3px;
-  text-decoration: none;
-  font-family: "AmericanaStd-bold";
-  font-size: 16px;
-  line-height: 16px;
+  padding: 6px 36px 3px;
 }
 
 @media (min-width: 992px) {
+  .daily-menu-img {
+    padding: 20px 0;
+  }
+
   .daily-menu-card {
     flex-direction: column;
   }
 
   h3 {
-    font-family: "AmericanaStd-bold";
     font-size: 44px;
     line-height: 44px;
     padding: none;
     padding-top: 20px;
   }
 
-  .daily-menu-img {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
   .daily-menu-card p {
-    font-family: "AcuminPro";
     font-size: 20px;
     line-height: 30px;
     padding: none;
@@ -296,6 +290,11 @@ a {
 
   .daily-menu-drinks {
     padding-bottom: 20px;
+  }
+
+  a {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
