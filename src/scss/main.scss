@@ -16,11 +16,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,6 +40,24 @@ video {
 // base rules
 // ==================================== */
 
+// .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+
+// h1 {
+//   text-align: center;
+//   margin-top: 40px;
+//   margin-bottom: 20px;
+// }
+
 @font-face {
   font-family: "AmericanaStd";
   src: url("../font/AmericanaStd.woff2") format("woff2"),
@@ -66,6 +79,11 @@ video {
   font-display: fallback;
 }
 
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 main {
   margin-top: 16px;
   color: #829e8a;
@@ -74,24 +92,6 @@ main {
 footer {
   margin-top: 16px;
 }
-
-// .row {
-//   margin-top: 16px;
-// }
-
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
-
-// h1 {
-//   text-align: center;
-//   margin-top: 40px;
-//   margin-bottom: 20px;
-// }
 
 header {
   background-color: #829e8a;
@@ -492,84 +492,3 @@ footer p {
     line-height: 20px;
   }
 }
-
-// background img header
-
-// /* Sidenav menu */
-// .sidenav {
-//   height: 218%;
-//   width: 100%;
-//   position: fixed;
-//   z-index: 1;
-//   top: 0;
-//   left: -250px;
-//   background-color: lightgrey;
-//   padding-top: 60px;
-//   transition: left 0.5s ease;
-// }
-
-// /* Sidenav menu links */
-// .sidenav a {
-//   padding: 6px 42px;
-//   text-decoration: none;
-//   font-size: 16px;
-//   line-height: 16px;
-//   color: #ffffff;
-//   display: block;
-//   transition: 0.3s;
-// }
-
-// // .sidenav a:hover {
-// //   color: #111;
-// // }
-
-// .sidenav ul {
-//   list-style-type: none;
-//   padding: 0;
-//   margin: 0;
-// }
-
-// /* Active class */
-// .sidenav.active {
-//   left: 0;
-// }
-
-// /* Close btn */
-// .sidenav .close {
-//   position: absolute;
-//   top: 0;
-//   right: 25px;
-//   font-size: 36px;
-// }
-
-// /* Icône burger */
-// .burger-icon span {
-//   display: block;
-//   width: 35px;
-//   height: 5px;
-//   background-color: #ffffff;
-//   margin: 6px 0;
-// }
-
-// .burger-button {
-//   display: inline-block;
-//   margin-bottom: 20px;
-//   cursor: pointer;
-// }
-
-// .burger-menu {
-//   // opacity: 0; remettre le opacity 0 a la fin
-//   opacity: 1;
-// }
-
-// .burger-menu.is-open {
-//   opacity: 1;
-// }
-
-// .burger-menu a {
-//   border: 1px solid #ffffff;
-// }
-
-// .b-m {
-//   margin-bottom: 20px;
-// }

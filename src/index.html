@@ -2,27 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>sunnie coffee</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
     <header id="up">
-      <!-- <div class="container">
-        <div class="row">
-          <div class="col-12 header-img">
-            <div class="parent1">
-              <img src="./img/header-img.webp" alt="image de sunnie coffee" />
-              <div class="child1"><h1>sunnie coffee</h1></div>
-            </div>
-          </div>
-        </div>
-      </div> -->
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h1>sunnie coffee</h1>
-          </div>
+          <div class="col-12"><h1>sunnie coffee</h1></div>
         </div>
       </div>
     </header>
@@ -31,50 +19,22 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <p><a href="#up" class="logo">sunnie coffee</a></p>
+              <a href="#up" class="logo">sunnie coffee</a>
             </div>
             <div class="navigation">
-              <div class="col-3 col-lg-2 offset-lg-2"><a href="#about-us-button">About us</a></div>
-              <div class="col-3 col-lg-2"><a href="#menu-button">Menu</a></div>
-              <div class="col-3 col-lg-2"><a href="#opening-hours-button">Opening hours</a></div>
-              <div class="col-3 col-lg-2"><a href="#contact-button">Contact</a></div>
+              <div class="col-3 col-lg-2 offset-lg-2">
+                <a href="#about-us-button">About us</a>
+              </div>
+              <div class="col-3 col-lg-2">
+                <a href="#menu-button">Menu</a>
+              </div>
+              <div class="col-3 col-lg-2">
+                <a href="#opening-hours-button">Opening hours</a>
+              </div>
+              <div class="col-3 col-lg-2">
+                <a href="#contact-button">Contact</a>
+              </div>
             </div>
-            <!-- <div class="burger-button">
-              <i class="fa-solid fa-bars"
-                ><img src="./img/bars.png" alt="open"
-              /></i>
-            </div>
-            <nav class="burger-menu">
-              <div class="b-m b-m-about-us">
-                <a href="#about-us-BM">About us</a>
-              </div>
-              <div class="b-m b-m-menu">
-                <a href="#menu-BM">Menu</a>
-              </div>
-              <div class="b-m b-m-oppening-hours">
-                <a href="#opening-hours-BM">Opening hours</a>
-              </div>
-              <div class="b-m b-m-contact">
-                <a href="#contact-BM">Contact</a>
-              </div>
-            </nav> -->
-
-            <!-- <div id="mySidenav" class="sidenav">
-              <a id="closeBtn" href="#" class="close">×</a>
-              <ul>
-                <li><a href="#about-us-BM">About us</a></li>
-                <li><a href="#menu-BM">Menu</a></li>
-                <li><a href="#opening-hours-BM">Opening hours</a></li>
-                <li><a href="#contact-BM">Contact</a></li>
-              </ul>
-            </div>
-            <a href="#" id="openBtn">
-              <span class="burger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
-            </a> -->
           </div>
         </div>
       </div>
@@ -88,11 +48,15 @@
       <div class="information">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-6 order-lg-2 about-us-img">
-              <img src="./img/about-us.webp" alt="incide of our restaurant" />
+            <div class="col-12 col-lg-6 order-lg-2">
+              <img
+                src="./img/about-us.webp"
+                alt="incide of our restaurant"
+                class="about-us-img"
+              />
             </div>
-            <div class="col-12 col-lg-6 order-lg-1 about-us-description">
-              <p>
+            <div class="col-12 col-lg-6 order-lg-1">
+              <p class="about-us-description">
                 “Sunnie Coffee” is a bright and warm restaurant in Vietnam. We
                 only use organic ingredients grown with love in our own
                 vegetable garden. Our specialty is healthy vegetarian dishes.
@@ -113,29 +77,39 @@
       <div class="menu">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-7 daily-menu-img">
-              <img src="./img/daily-menu.webp" alt="avocado on toast" />
+            <div class="col-12 col-lg-7">
+              <img
+                src="./img/daily-menu.webp"
+                alt="avocado on toast"
+                class="daily-menu-img"
+              />
             </div>
             <div class="col-12 col-lg-5">
               <div class="daily-menu-card">
-                <div class="col-6 daily-menu-meals">
-                  <h3>Meals</h3>
-                  <p>
-                    Avocado toast<br />
-                    Pho soup<br />
-                    Spring roll
-                  </p>
+                <div class="col-6">
+                  <div class="daily-menu-meals">
+                    <h3>Meals</h3>
+                    <p>
+                      Avocado toast<br />
+                      Pho soup<br />
+                      Spring roll
+                    </p>
+                  </div>
                 </div>
-                <div class="col-6 daily-menu-drinks">
-                  <h3>Drinks</h3>
-                  <p>
-                    Boba tea<br />
-                    Fruit mix<br />
-                    Nuoc mia
-                  </p>
+                <div class="col-6">
+                  <div class="daily-menu-drinks">
+                    <h3>Drinks</h3>
+                    <p>
+                      Boba tea<br />
+                      Fruit mix<br />
+                      Nuoc mia
+                    </p>
+                  </div>
                 </div>
-                <div class="col-12 button-menu">
-                  <a href="./img/menu.jpg">Full menu</a>
+                <div class="col-12">
+                  <div class="button-menu">
+                    <a href="./img/menu.jpg">Full menu</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -212,27 +186,33 @@
                 class="footer-img"
               />
             </div>
-            <div class="col-12 col-lg-4 order-lg-1 contact-us">
-              <div class="col-6 offset-1 adress">
-                <p class="adress-text">
-                  56 P. Hàng Buôm,<br />
-                  Hàng Buôm,<br />
-                  HàNôi 100000,<br />
-                  ViêtNam <br />
-                </p>
-              </div>
-              <div class="col-3 col-lg-6 offset-1 contact-button">
-                <div class="button-footer first-button">
-                  <a href="mailto:sunnie.coffee@gmail.com">Mail</a>
+            <div class="col-12 col-lg-4 order-lg-1">
+              <div class="contact-us">
+                <div class="col-6 offset-1">
+                  <div class="adress">
+                    <p class="adress-text">
+                      56 P. Hàng Buôm,<br />
+                      Hàng Buôm,<br />
+                      HàNôi 100000,<br />
+                      ViêtNam <br />
+                    </p>
+                  </div>
                 </div>
-                <div class="button-footer">
-                  <a href="tel:0792902608">Phone</a>
-                </div>
-                <div class="button-footer">
-                  <a href="https://www.instagram.com">Instagram</a>
-                </div>
-                <div class="button-footer last-button">
-                  <a href="https://www.facebook.com/">Facebook</a>
+                <div class="col-3 col-lg-6 offset-1">
+                  <div class="contact-button">
+                    <div class="button-footer first-button">
+                      <a href="mailto:sunnie.coffee@gmail.com">Mail</a>
+                    </div>
+                    <div class="button-footer">
+                      <a href="tel:0792902608">Phone</a>
+                    </div>
+                    <div class="button-footer">
+                      <a href="https://www.instagram.com">Instagram</a>
+                    </div>
+                    <div class="button-footer last-button">
+                      <a href="https://www.facebook.com/">Facebook</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -240,44 +220,6 @@
         </div>
       </div>
       <div class="rectangle"></div>
-            <!-- <div class="col-6 col-lg-12 order-lg-1">
-              <p class="adress">
-                56 P. Hàng Buôm,<br />
-                Hàng Buôm,<br />
-                HàNôi 100000,<br />
-                ViêtNam <br />
-              </p>
-            </div>
-            <div class="col-6 col-lg-12 order-lg-1">
-              <div class="button-footer">
-                <a href="">Mail</a>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12 order-lg-1">
-              <div class="button-footer">
-                <a href="">Phone</a>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12 order-lg-1">
-              <div class="button-footer">
-                <a href="">Instagram</a>
-              </div>
-            </div>
-            <div class="col-6 col-lg-12 order-lg-1">
-              <div class="button-footer">
-                <a href="">Facebook</a>
-              </div>
-            </div> -->
-          </div>
-        </div>
-      </div>
-      <div class="green-rectangle">
-        <div class="container">
-          <div class="row">
-            <div class="col-12"></div>
-          </div>
-        </div>
-      </div>
     </footer>
     <script src="js/main.js" type="module"></script>
   </body>
