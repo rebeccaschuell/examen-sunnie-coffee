@@ -302,24 +302,24 @@ a {
   border-bottom: solid 1px #829e8a;
 }
 
+.first-hour-title {
+  padding-top: 10px;
+}
+
 h4 {
   font-family: "AmericanaStd-bold";
-  line-height: 22px;
   font-size: 22px;
+  line-height: 22px;
   text-align: center;
   padding-bottom: 4px;
 }
 
 .hours {
   font-family: "AcuminPro";
-  line-height: 26px;
   font-size: 16px;
+  line-height: 26px;
   text-align: center;
   padding-bottom: 20px;
-}
-
-.first-hour-title {
-  padding-top: 10px;
 }
 
 .last-hour {
@@ -327,13 +327,12 @@ h4 {
 }
 
 .restaurant-img {
-  border-bottom: solid 1px #829e8a;
   border-top: solid 1px #829e8a;
+  border-bottom: solid 1px #829e8a;
 }
 
 .restaurant-img img {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
 .hidden-image {
@@ -341,9 +340,8 @@ h4 {
 }
 
 @media (min-width: 992px) {
-  .restaurant-img img {
+  .first-hour-title {
     padding-top: 20px;
-    padding-bottom: 20px;
   }
 
   h4 {
@@ -358,12 +356,12 @@ h4 {
     padding-bottom: 40px;
   }
 
-  .first-hour-title {
-    padding-top: 20px;
-  }
-
   .last-hour {
     padding-bottom: 20px;
+  }
+
+  .restaurant-img img {
+    padding: 20px 0;
   }
 
   .hidden-image {
